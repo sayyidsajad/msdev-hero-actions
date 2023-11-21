@@ -7,4 +7,5 @@ jobs:
     container: node:14
     steps: 
         - run: node --version
-        - run: npm --version 
+        - run: npm --version
+        - run: npm install 
